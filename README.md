@@ -405,13 +405,16 @@ Planned or potential extensions include:
 
 ## 👥 Team
 
-MedBrain OS is developed by a multidisciplinary student team covering:
+MedBrain OS is developed by a multidisciplinary student team covering Data Science, Artificial Intelligence, Software Engineering, and Frontend Development.
 
-* Data Science
-* Artificial Intelligence
-* Software Engineering
+### Frontend Development
 
-Each team member contributes to different components of the overall system, including data engineering, AI models, backend services, frontend development, and system integration.
+The MedBrain OS frontend was developed collaboratively by:
+
+* **Sohaila Hossam** — Frontend Development
+* **Salma Farag** — Frontend Development — [GitHub](https://github.com/salma816)
+
+Both contributors worked together on the design, implementation, responsive interface, and integration of the MedBrain OS frontend.
 
 ---
 
