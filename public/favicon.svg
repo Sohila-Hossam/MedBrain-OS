@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="medbrain-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#042f2e" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect width="64" height="64" rx="16" fill="url(#medbrain-grad)" filter="url(#glow)" />
+  
+  <!-- Neural Brain Circuit Pattern -->
+  <g stroke="#ffffff" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left hemisphere curves & circuits -->
+    <path d="M 32 15 C 24 15 17 21 17 29 C 17 33.5 19.5 37.5 23 40 C 22 43 23 47 26 49 C 28.5 50.5 31 49 32 47.5" fill="none" />
+    <circle cx="23" cy="25" r="2" fill="#ffffff" />
+    <circle cx="21" cy="35" r="2" fill="#ffffff" />
+    <circle cx="28" cy="44" r="2" fill="#ffffff" />
+    <path d="M 23 27 L 23 33" />
+    <path d="M 25 35 L 29 35" />
+    
+    <!-- Right hemisphere curves & circuits -->
+    <path d="M 32 15 C 40 15 47 21 47 29 C 47 33.5 44.5 37.5 41 40 C 42 43 41 47 38 49 C 35.5 50.5 33 49 32 47.5" fill="none" />
+    <circle cx="41" cy="25" r="2" fill="#ffffff" />
+    <circle cx="43" cy="35" r="2" fill="#ffffff" />
+    <circle cx="36" cy="44" r="2" fill="#ffffff" />
+    <path d="M 41 27 L 41 33" />
+    <path d="M 39 35 L 35 35" />
+    
+    <!-- Central Synapse Pulse -->
+    <path d="M 32 18 L 32 46" stroke-dasharray="1 3" stroke-width="2" />
+    <circle cx="32" cy="32" r="3.5" fill="#2dd4bf" stroke="#ffffff" stroke-width="2.5" />
+  </g>
+</svg>

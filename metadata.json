@@ -1,0 +1,6 @@
+{
+  "name": "MedBrain OS",
+  "description": "Enterprise AI Hospital Digital Brain connecting ICU monitoring, precision AI, patient twins, disease simulation, clinical research, and hospital intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
